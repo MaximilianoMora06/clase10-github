@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+/* GENERAL */
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    background-color: darkslategray;
+    height: 50px;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+li {
+    margin: 0 20px;
+}
+
+.nav {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: darkslategray;
+    text-decoration-color: azure;
+}
+
+footer {
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* INDEX */
+
+.banner {
+    width: 100%;
+}
+
+.index {
+    margin: 100px;
+    align-items: center;
+}
+
+.linkimage {
+    width: 50%;
+    height: 50%;
+}
+
+/* CONTACTO */
+
+.form {
+    font-size: x-large;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* GALERIA */
+
+.galeria {
+    margin: 25px;
+    font-size: x-large;
+}
+
+.images {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* INFO */
+
+.info {
+    margin: 25px;
+    font-size: x-large;
+    padding: 5px;
+}
+
+iframe {
+    margin: 25px;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    font-size: x-large;
+    margin: 25px;
+    padding: 25px;
+}
