@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+.header a:hover {
+    color: aqua;
+    font-weight: bold;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    background-color: darkslategray;
+    height: 50px;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+.header li {
+    margin: 0 20px;
+}
+
+.nav {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: darkslategray;
+    text-decoration-color: azure;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.footer {
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* INDEX */
+
+.banner {
+    width: 100%;
+}
+
+.index {
+    margin: 100px;
+    align-items: center;
+}
+
+.linkimage {
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* CONTACTO */
+
+.form {
+    font-size: x-large;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* GALERIA */
+
+h2 {
+    margin: 25px;
+    font-size: x-large;
+}
+
+.images {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.images img {
+    height: 250px;
+    margin: 20px;
+}
+
+/* INFO */
+
+.info {
+    margin: 25px;
+    font-size: x-large;
+    padding: 5px;
+}
+
+iframe {
+    margin: 25px;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    font-size: x-large;
+    margin: 25px;
+    padding: 25px;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1024px) {
+    ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: darkslategray;
+        height: 50px;
+        top: 0;
+        position: sticky;
+    }
+
+    .images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    iframe{
+        height: 300px;
+        width: 300px;
+    }
+}
