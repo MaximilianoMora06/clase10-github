@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <!-- Enlaces relativos -->
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./tablas.html">Tablas</a>
+            </li>
+            <li>
+                <a href="./formularios.html">Formularios</a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <h1>Formularios</h1>
+    <form action="#" method="get">
+        <input type="text" name="Nombre" placeholder="Nombre y Apellido">
+        <br><br>
+        <input type="number" name="Edad" placeholder="Edad">
+        <br><br>
+        <input type="email" name="Email" placeholder="Email">
+        <br><br>
+        <input type="password" name="Contraseña" placeholder="Contraseña">
+        <!-- Botones -->
+        <br><br>
+        <span>Hombre</span>
+        <input type="radio" name="sexo" value="hombre">
+        <br>
+        <span>Mujer</span>
+        <input type="radio" name="sexo" value="mujer">
+        <br><br>
+        <!-- Tipo check -->
+        <span>¿Acepta términos y condiciones</span>
+        <input type="checkbox" name="acepta" value="si" required>
+        <!-- Menu Desplegable -->
+        <br><br>
+        <select name="talles">
+            <option value="L">large</option>
+            <option value="M">medium</option>
+            <option value="S">small</option>
+        </select>
+        <!-- Botones -->
+        <br><br>
+        <input type="submit" value="Inscribir">
+        <input type="reset">
+        <!-- Boton q solo sirve con JavaScrip -->
+        <input type="button" value="Hace Click">
+    </form>
+</body>
+
+</html>
