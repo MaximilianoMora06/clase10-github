@@ -1,0 +1,43 @@
+@media (max-width: 576px){
+    .patito{
+        display: none;
+    }
+}
+
+a{
+    font-size: 3rem;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+a:link{
+    color: aquamarine;
+}
+
+input[type=text]{
+    text-align: center;
+    color: orange;
+    border-radius: 15px;
+}
+
+input[type=text]:focus{
+    background-color: coral;
+    color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+input[type=text]::placeholder{
+    color: #e58d20;
+}
+
+input[type=checked]:checked{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
